@@ -1,0 +1,11 @@
+write a c program where a list of integers(A) I to n is stored randomly in an array. In another list, there are n integep stored in a Queue(B). Manage queue Bin such a way that the dequeue(B), ie, deletion of clements from the queue, will be done in the order given in list A. Queue to be implemented using a circular linkedlist (C). As a restriction imposed by ADT, you are not allowed to access storage(C) directly. 
+1 4 2 5 3 6
+Input B
+9 14 0 5 2 16 
+Output: B 
+14 0 5 2 16 (1st deletion) 
+14 0 2 16 (2nd deletion)
+0 2 16 (3rd deletion) 
+0 16 (4th deletion) 
+16 (5th deletion)
+empty queue(6th deletion)
